@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31AB954723DC554E00D414C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB954623DC554E00D414C8 /* AppDelegate.swift */; };
+		31AB954923DC554E00D414C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB954823DC554E00D414C8 /* SceneDelegate.swift */; };
+		31AB954B23DC554E00D414C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB954A23DC554E00D414C8 /* ViewController.swift */; };
+		31AB954E23DC554E00D414C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AB954C23DC554E00D414C8 /* Main.storyboard */; };
+		31AB955123DC554E00D414C8 /* noidaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31AB954F23DC554E00D414C8 /* noidaApp.xcdatamodeld */; };
+		31AB955323DC555F00D414C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31AB955223DC555F00D414C8 /* Assets.xcassets */; };
+		31AB955623DC555F00D414C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AB955423DC555F00D414C8 /* LaunchScreen.storyboard */; };
+		31AB956123DC556200D414C8 /* noidaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB956023DC556200D414C8 /* noidaAppTests.swift */; };
+		31AB956C23DC556200D414C8 /* noidaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB956B23DC556200D414C8 /* noidaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31AB955D23DC556200D414C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AB953B23DC554E00D414C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AB954223DC554E00D414C8;
+			remoteInfo = noidaApp;
+		};
+		31AB956823DC556200D414C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AB953B23DC554E00D414C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AB954223DC554E00D414C8;
+			remoteInfo = noidaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31AB954323DC554E00D414C8 /* noidaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noidaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AB954623DC554E00D414C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31AB954823DC554E00D414C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31AB954A23DC554E00D414C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31AB954D23DC554E00D414C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31AB955023DC554E00D414C8 /* noidaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = noidaApp.xcdatamodel; sourceTree = "<group>"; };
+		31AB955223DC555F00D414C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31AB955523DC555F00D414C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31AB955723DC556000D414C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AB955C23DC556200D414C8 /* noidaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noidaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AB956023DC556200D414C8 /* noidaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noidaAppTests.swift; sourceTree = "<group>"; };
+		31AB956223DC556200D414C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AB956723DC556200D414C8 /* noidaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noidaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AB956B23DC556200D414C8 /* noidaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noidaAppUITests.swift; sourceTree = "<group>"; };
+		31AB956D23DC556200D414C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AB954023DC554E00D414C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB955923DC556200D414C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB956423DC556200D414C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31AB953A23DC554E00D414C8 = {
+			isa = PBXGroup;
+			children = (
+				31AB954523DC554E00D414C8 /* noidaApp */,
+				31AB955F23DC556200D414C8 /* noidaAppTests */,
+				31AB956A23DC556200D414C8 /* noidaAppUITests */,
+				31AB954423DC554E00D414C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31AB954423DC554E00D414C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31AB954323DC554E00D414C8 /* noidaApp.app */,
+				31AB955C23DC556200D414C8 /* noidaAppTests.xctest */,
+				31AB956723DC556200D414C8 /* noidaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31AB954523DC554E00D414C8 /* noidaApp */ = {
+			isa = PBXGroup;
+			children = (
+				31AB954623DC554E00D414C8 /* AppDelegate.swift */,
+				31AB954823DC554E00D414C8 /* SceneDelegate.swift */,
+				31AB954A23DC554E00D414C8 /* ViewController.swift */,
+				31AB954C23DC554E00D414C8 /* Main.storyboard */,
+				31AB955223DC555F00D414C8 /* Assets.xcassets */,
+				31AB955423DC555F00D414C8 /* LaunchScreen.storyboard */,
+				31AB955723DC556000D414C8 /* Info.plist */,
+				31AB954F23DC554E00D414C8 /* noidaApp.xcdatamodeld */,
+			);
+			path = noidaApp;
+			sourceTree = "<group>";
+		};
+		31AB955F23DC556200D414C8 /* noidaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				31AB956023DC556200D414C8 /* noidaAppTests.swift */,
+				31AB956223DC556200D414C8 /* Info.plist */,
+			);
+			path = noidaAppTests;
+			sourceTree = "<group>";
+		};
+		31AB956A23DC556200D414C8 /* noidaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31AB956B23DC556200D414C8 /* noidaAppUITests.swift */,
+				31AB956D23DC556200D414C8 /* Info.plist */,
+			);
+			path = noidaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31AB954223DC554E00D414C8 /* noidaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AB957023DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaApp" */;
+			buildPhases = (
+				31AB953F23DC554E00D414C8 /* Sources */,
+				31AB954023DC554E00D414C8 /* Frameworks */,
+				31AB954123DC554E00D414C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = noidaApp;
+			productName = noidaApp;
+			productReference = 31AB954323DC554E00D414C8 /* noidaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31AB955B23DC556200D414C8 /* noidaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AB957323DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaAppTests" */;
+			buildPhases = (
+				31AB955823DC556200D414C8 /* Sources */,
+				31AB955923DC556200D414C8 /* Frameworks */,
+				31AB955A23DC556200D414C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AB955E23DC556200D414C8 /* PBXTargetDependency */,
+			);
+			name = noidaAppTests;
+			productName = noidaAppTests;
+			productReference = 31AB955C23DC556200D414C8 /* noidaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31AB956623DC556200D414C8 /* noidaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AB957623DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaAppUITests" */;
+			buildPhases = (
+				31AB956323DC556200D414C8 /* Sources */,
+				31AB956423DC556200D414C8 /* Frameworks */,
+				31AB956523DC556200D414C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AB956923DC556200D414C8 /* PBXTargetDependency */,
+			);
+			name = noidaAppUITests;
+			productName = noidaAppUITests;
+			productReference = 31AB956723DC556200D414C8 /* noidaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31AB953B23DC554E00D414C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "R Shantha Kumar";
+				TargetAttributes = {
+					31AB954223DC554E00D414C8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					31AB955B23DC556200D414C8 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 31AB954223DC554E00D414C8;
+					};
+					31AB956623DC556200D414C8 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 31AB954223DC554E00D414C8;
+					};
+				};
+			};
+			buildConfigurationList = 31AB953E23DC554E00D414C8 /* Build configuration list for PBXProject "noidaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31AB953A23DC554E00D414C8;
+			productRefGroup = 31AB954423DC554E00D414C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31AB954223DC554E00D414C8 /* noidaApp */,
+				31AB955B23DC556200D414C8 /* noidaAppTests */,
+				31AB956623DC556200D414C8 /* noidaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31AB954123DC554E00D414C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB955623DC555F00D414C8 /* LaunchScreen.storyboard in Resources */,
+				31AB955323DC555F00D414C8 /* Assets.xcassets in Resources */,
+				31AB954E23DC554E00D414C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB955A23DC556200D414C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB956523DC556200D414C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31AB953F23DC554E00D414C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB954B23DC554E00D414C8 /* ViewController.swift in Sources */,
+				31AB955123DC554E00D414C8 /* noidaApp.xcdatamodeld in Sources */,
+				31AB954723DC554E00D414C8 /* AppDelegate.swift in Sources */,
+				31AB954923DC554E00D414C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB955823DC556200D414C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB956123DC556200D414C8 /* noidaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AB956323DC556200D414C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB956C23DC556200D414C8 /* noidaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31AB955E23DC556200D414C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AB954223DC554E00D414C8 /* noidaApp */;
+			targetProxy = 31AB955D23DC556200D414C8 /* PBXContainerItemProxy */;
+		};
+		31AB956923DC556200D414C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AB954223DC554E00D414C8 /* noidaApp */;
+			targetProxy = 31AB956823DC556200D414C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31AB954C23DC554E00D414C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AB954D23DC554E00D414C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31AB955423DC555F00D414C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AB955523DC555F00D414C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31AB956E23DC556200D414C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31AB956F23DC556200D414C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31AB957123DC556200D414C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = noidaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shanth.noidaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31AB957223DC556200D414C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = noidaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shanth.noidaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31AB957423DC556200D414C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = noidaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shanth.noidaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noidaApp.app/noidaApp";
+			};
+			name = Debug;
+		};
+		31AB957523DC556200D414C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = noidaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shanth.noidaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noidaApp.app/noidaApp";
+			};
+			name = Release;
+		};
+		31AB957723DC556200D414C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = noidaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shanth.noidaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = noidaApp;
+			};
+			name = Debug;
+		};
+		31AB957823DC556200D414C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = noidaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shanth.noidaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = noidaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31AB953E23DC554E00D414C8 /* Build configuration list for PBXProject "noidaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AB956E23DC556200D414C8 /* Debug */,
+				31AB956F23DC556200D414C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AB957023DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AB957123DC556200D414C8 /* Debug */,
+				31AB957223DC556200D414C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AB957323DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AB957423DC556200D414C8 /* Debug */,
+				31AB957523DC556200D414C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AB957623DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AB957723DC556200D414C8 /* Debug */,
+				31AB957823DC556200D414C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31AB954F23DC554E00D414C8 /* noidaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31AB955023DC554E00D414C8 /* noidaApp.xcdatamodel */,
+			);
+			currentVersion = 31AB955023DC554E00D414C8 /* noidaApp.xcdatamodel */;
+			path = noidaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31AB953B23DC554E00D414C8 /* Project object */;
+}
