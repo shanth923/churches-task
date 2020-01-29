@@ -1,0 +1,6 @@
+framework module Pods_noidaApp_noidaAppUITests {
+  umbrella header "Pods-noidaApp-noidaAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03FFAB4488FE78F8144E8DF8 /* Pods_noidaApp_noidaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0232635BF7E4A4731C2090 /* Pods_noidaApp_noidaAppUITests.framework */; };
+		1035D5F3C2FB8355E4EF32AE /* Pods_noidaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13461F7E00EC576BC9A088 /* Pods_noidaAppTests.framework */; };
+		31A9827823DF193C0099418E /* TableViewCell23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A9827623DF193C0099418E /* TableViewCell23.swift */; };
+		31A9827923DF193C0099418E /* TableViewCell23.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31A9827723DF193C0099418E /* TableViewCell23.xib */; };
 		31AB954723DC554E00D414C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB954623DC554E00D414C8 /* AppDelegate.swift */; };
 		31AB954923DC554E00D414C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB954823DC554E00D414C8 /* SceneDelegate.swift */; };
 		31AB954B23DC554E00D414C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB954A23DC554E00D414C8 /* ViewController.swift */; };
@@ -16,6 +20,7 @@
 		31AB955623DC555F00D414C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AB955423DC555F00D414C8 /* LaunchScreen.storyboard */; };
 		31AB956123DC556200D414C8 /* noidaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB956023DC556200D414C8 /* noidaAppTests.swift */; };
 		31AB956C23DC556200D414C8 /* noidaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB956B23DC556200D414C8 /* noidaAppUITests.swift */; };
+		893C3DFA243C91F5CBA88617 /* Pods_noidaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E518B2DB8724EA980E740B /* Pods_noidaApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154335297938C82F746C478E /* Pods-noidaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noidaApp.debug.xcconfig"; path = "Target Support Files/Pods-noidaApp/Pods-noidaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		172C8C20A25517772343C0EB /* Pods-noidaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noidaAppTests.release.xcconfig"; path = "Target Support Files/Pods-noidaAppTests/Pods-noidaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F13461F7E00EC576BC9A088 /* Pods_noidaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_noidaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A9827623DF193C0099418E /* TableViewCell23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell23.swift; sourceTree = "<group>"; };
+		31A9827723DF193C0099418E /* TableViewCell23.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell23.xib; sourceTree = "<group>"; };
 		31AB954323DC554E00D414C8 /* noidaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noidaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AB954623DC554E00D414C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31AB954823DC554E00D414C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,12 @@
 		31AB956723DC556200D414C8 /* noidaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noidaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AB956B23DC556200D414C8 /* noidaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noidaAppUITests.swift; sourceTree = "<group>"; };
 		31AB956D23DC556200D414C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3643757167B3C5F11866763B /* Pods-noidaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noidaApp.release.xcconfig"; path = "Target Support Files/Pods-noidaApp/Pods-noidaApp.release.xcconfig"; sourceTree = "<group>"; };
+		3D6525CE1C583DB97C222EEA /* Pods-noidaApp-noidaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noidaApp-noidaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-noidaApp-noidaAppUITests/Pods-noidaApp-noidaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5106CB1B5EC5D2BA4C14F548 /* Pods-noidaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noidaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-noidaAppTests/Pods-noidaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92E518B2DB8724EA980E740B /* Pods_noidaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_noidaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65D16C1AB91B411F65B8914 /* Pods-noidaApp-noidaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noidaApp-noidaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-noidaApp-noidaAppUITests/Pods-noidaApp-noidaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0232635BF7E4A4731C2090 /* Pods_noidaApp_noidaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_noidaApp_noidaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893C3DFA243C91F5CBA88617 /* Pods_noidaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1035D5F3C2FB8355E4EF32AE /* Pods_noidaAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FFAB4488FE78F8144E8DF8 /* Pods_noidaApp_noidaAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				31AB955F23DC556200D414C8 /* noidaAppTests */,
 				31AB956A23DC556200D414C8 /* noidaAppUITests */,
 				31AB954423DC554E00D414C8 /* Products */,
+				CE585466BB542F4FA5522435 /* Pods */,
+				CA3FB4F9C2AFEDE5E89F9B25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +126,8 @@
 				31AB954823DC554E00D414C8 /* SceneDelegate.swift */,
 				31AB954A23DC554E00D414C8 /* ViewController.swift */,
 				31AB954C23DC554E00D414C8 /* Main.storyboard */,
+				31A9827623DF193C0099418E /* TableViewCell23.swift */,
+				31A9827723DF193C0099418E /* TableViewCell23.xib */,
 				31AB955223DC555F00D414C8 /* Assets.xcassets */,
 				31AB955423DC555F00D414C8 /* LaunchScreen.storyboard */,
 				31AB955723DC556000D414C8 /* Info.plist */,
@@ -131,6 +154,29 @@
 			path = noidaAppUITests;
 			sourceTree = "<group>";
 		};
+		CA3FB4F9C2AFEDE5E89F9B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92E518B2DB8724EA980E740B /* Pods_noidaApp.framework */,
+				DF0232635BF7E4A4731C2090 /* Pods_noidaApp_noidaAppUITests.framework */,
+				2F13461F7E00EC576BC9A088 /* Pods_noidaAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE585466BB542F4FA5522435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154335297938C82F746C478E /* Pods-noidaApp.debug.xcconfig */,
+				3643757167B3C5F11866763B /* Pods-noidaApp.release.xcconfig */,
+				3D6525CE1C583DB97C222EEA /* Pods-noidaApp-noidaAppUITests.debug.xcconfig */,
+				D65D16C1AB91B411F65B8914 /* Pods-noidaApp-noidaAppUITests.release.xcconfig */,
+				5106CB1B5EC5D2BA4C14F548 /* Pods-noidaAppTests.debug.xcconfig */,
+				172C8C20A25517772343C0EB /* Pods-noidaAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31AB957023DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaApp" */;
 			buildPhases = (
+				D3944045EB0152239A509653 /* [CP] Check Pods Manifest.lock */,
 				31AB953F23DC554E00D414C8 /* Sources */,
 				31AB954023DC554E00D414C8 /* Frameworks */,
 				31AB954123DC554E00D414C8 /* Resources */,
+				A114F908CFE105AC81A6EE25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31AB957323DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaAppTests" */;
 			buildPhases = (
+				1BCEE4191F9C6A4591903B54 /* [CP] Check Pods Manifest.lock */,
 				31AB955823DC556200D414C8 /* Sources */,
 				31AB955923DC556200D414C8 /* Frameworks */,
 				31AB955A23DC556200D414C8 /* Resources */,
@@ -173,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31AB957623DC556200D414C8 /* Build configuration list for PBXNativeTarget "noidaAppUITests" */;
 			buildPhases = (
+				8A297A3EFB52776F9FB2DAFB /* [CP] Check Pods Manifest.lock */,
 				31AB956323DC556200D414C8 /* Sources */,
 				31AB956423DC556200D414C8 /* Frameworks */,
 				31AB956523DC556200D414C8 /* Resources */,
+				79658FE2071C6200C0C14062 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A9827923DF193C0099418E /* TableViewCell23.xib in Resources */,
 				31AB955623DC555F00D414C8 /* LaunchScreen.storyboard in Resources */,
 				31AB955323DC555F00D414C8 /* Assets.xcassets in Resources */,
 				31AB954E23DC554E00D414C8 /* Main.storyboard in Resources */,
@@ -257,6 +309,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BCEE4191F9C6A4591903B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-noidaAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79658FE2071C6200C0C14062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-noidaApp-noidaAppUITests/Pods-noidaApp-noidaAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-noidaApp-noidaAppUITests/Pods-noidaApp-noidaAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-noidaApp-noidaAppUITests/Pods-noidaApp-noidaAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A297A3EFB52776F9FB2DAFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-noidaApp-noidaAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A114F908CFE105AC81A6EE25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-noidaApp/Pods-noidaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-noidaApp/Pods-noidaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-noidaApp/Pods-noidaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3944045EB0152239A509653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-noidaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31AB953F23DC554E00D414C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -266,6 +421,7 @@
 				31AB955123DC554E00D414C8 /* noidaApp.xcdatamodeld in Sources */,
 				31AB954723DC554E00D414C8 /* AppDelegate.swift in Sources */,
 				31AB954923DC554E00D414C8 /* SceneDelegate.swift in Sources */,
+				31A9827823DF193C0099418E /* TableViewCell23.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +592,7 @@
 		};
 		31AB957123DC556200D414C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154335297938C82F746C478E /* Pods-noidaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +610,7 @@
 		};
 		31AB957223DC556200D414C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3643757167B3C5F11866763B /* Pods-noidaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +628,7 @@
 		};
 		31AB957423DC556200D414C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5106CB1B5EC5D2BA4C14F548 /* Pods-noidaAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +650,7 @@
 		};
 		31AB957523DC556200D414C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172C8C20A25517772343C0EB /* Pods-noidaAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		31AB957723DC556200D414C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6525CE1C583DB97C222EEA /* Pods-noidaApp-noidaAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +692,7 @@
 		};
 		31AB957823DC556200D414C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65D16C1AB91B411F65B8914 /* Pods-noidaApp-noidaAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
